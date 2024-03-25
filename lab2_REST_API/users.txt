@@ -1,0 +1,4 @@
+example1@ex.pl,$2b$12$xZzxAfS7.uIJWqgFCaeDVu1YHobuy6oONpINcuC.rQ4TF0Ibh9SHm
+example2@ex.pl,$2b$12$u5OD7j4cN9OVFox3ZFQX4ej.vssUBZTPEMTl3K/vS/qVjV76E9aR2
+example@gmail.com,$2b$12$yTqfmjqzZzP2qSFh6pSqCunA0PnjFLZzzIdVIQz01mWeDMw66rNwy
+krzysztof@gmail.com,$2b$12$UR.EyfU.9dyrrux7WomG1.DSQc8UkBObi92FeisOIITzIkoQm.Wei
