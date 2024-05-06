@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package tutorial;
+
+option java_package = "sr.proto";
+option java_outer_classname = "CarshowroomServiceProtos";
+
+message AddCarOptionalRequest {
+  string brand = 1;
+  string model = 2;
+  optional int32 year = 3;
+}
+
+message AddCarNoOptionalRequest {
+  string brand = 1;
+  string model = 2;
+  int32 year = 3;
+}
+
+message AddCarResponse {
+  bool response = 1;
+}
+
+service CarshowroomService  {
+  rpc AddCarOptional(AddCarOptionalRequest) returns (AddCarResponse);
+  rpc AddCarNoOptional(AddCarNoOptionalRequest) returns (AddCarResponse);
+}
