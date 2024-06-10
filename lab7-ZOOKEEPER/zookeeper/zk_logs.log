@@ -1,0 +1,278 @@
+23:03:42.695 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:03:44.040 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:03:44.372 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 3,106  replyHeader:: 3,51539607568,0  request:: '/a,1  response:: 0 
+23:03:45.710 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:03:47.056 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:03:48.402 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:03:49.750 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:03:51.094 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:03:52.437 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:03:53.621 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got notification session id: 0x1003583e49e0002
+23:03:53.622 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeCreated path:/a for session id 0x1003583e49e0002
+Created node 
+23:03:53.624 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 3ms.
+23:03:53.627 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:/a serverPath:/a finished:false header:: 4,3  replyHeader:: 4,51539607569,0  request:: '/a,T  response:: s{51539607569,51539607569,1718053433609,1718053433609,0,0,0,0,0,0,51539607569} 
+23:03:53.628 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,51539607569,0  request:: '/a,F  response:: s{51539607569,51539607569,1718053433609,1718053433609,0,0,0,0,0,0,51539607569} 
+23:03:53.631 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 6,8  replyHeader:: 6,51539607569,0  request:: '/a,T  response:: v{} 
+23:03:54.970 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:03:56.308 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:03:57.647 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:03:58.989 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:00.333 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:01.673 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:01.692 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got notification session id: 0x1003583e49e0002
+23:04:01.692 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/a for session id 0x1003583e49e0002
+Node children changed 
+23:04:01.694 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 7,8  replyHeader:: 7,51539607570,0  request:: '/a,F  response:: v{'child1} 
+23:04:01.711 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 8,8  replyHeader:: 8,51539607570,0  request:: '/a/child1,F  response:: v{} 
+Path /a has 1 descendant
+Running command: python src/display_children.py 1
+23:04:03.047 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+Script exited with code: 0
+23:04:04.300 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:/a serverPath:/a finished:false header:: 9,3  replyHeader:: 9,51539607570,0  request:: '/a,T  response:: s{51539607569,51539607569,1718053433609,1718053433609,0,1,0,0,0,1,51539607570} 
+23:04:04.302 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 10,3  replyHeader:: 10,51539607570,0  request:: '/a,F  response:: s{51539607569,51539607569,1718053433609,1718053433609,0,1,0,0,0,1,51539607570} 
+23:04:04.303 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 6ms.
+23:04:04.305 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 11,8  replyHeader:: 11,51539607570,0  request:: '/a,T  response:: v{'child1} 
+23:04:04.308 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 12,8  replyHeader:: 12,51539607570,0  request:: '/a/child1,T  response:: v{} 
+23:04:05.651 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:06.992 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:08.340 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:09.033 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got notification session id: 0x1003583e49e0002
+23:04:09.034 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeDeleted path:/a/child1 for session id 0x1003583e49e0002
+23:04:09.034 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got notification session id: 0x1003583e49e0002
+23:04:09.035 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/a for session id 0x1003583e49e0002
+Node children changed 
+23:04:09.036 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 13,8  replyHeader:: 13,51539607571,0  request:: '/a,F  response:: v{} 
+Path /a has 0 descendants
+Running command: python src/display_children.py 0
+23:04:10.383 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+Script exited with code: 0
+23:04:11.437 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:/a serverPath:/a finished:false header:: 14,3  replyHeader:: 14,51539607571,0  request:: '/a,T  response:: s{51539607569,51539607569,1718053433609,1718053433609,0,2,0,0,0,0,51539607571} 
+23:04:11.438 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 15,3  replyHeader:: 15,51539607571,0  request:: '/a,F  response:: s{51539607569,51539607569,1718053433609,1718053433609,0,2,0,0,0,0,51539607571} 
+23:04:11.439 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 4ms.
+23:04:11.440 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 16,8  replyHeader:: 16,51539607571,0  request:: '/a,T  response:: v{} 
+23:04:12.782 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:14.122 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:14.708 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got notification session id: 0x1003583e49e0002
+23:04:14.709 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeDeleted path:/a for session id 0x1003583e49e0002
+Deleted node 
+23:04:14.712 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:/a serverPath:/a finished:false header:: 17,3  replyHeader:: 17,51539607572,-101  request:: '/a,T  response::  
+23:04:14.715 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 18,3  replyHeader:: 18,51539607572,-101  request:: '/a,F  response::  
+23:04:16.056 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:04:17.395 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:04:18.744 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 2ms.
+23:04:20.088 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:21.425 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:04:22.765 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:24.108 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:25.452 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:04:26.797 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:28.138 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:29.475 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:30.817 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:32.162 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:33.500 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:34.844 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:04:36.188 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:37.536 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:38.880 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:40.223 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:41.567 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:04:42.907 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:44.247 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:04:45.590 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:04:46.929 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:04:48.273 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:49.616 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:50.959 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:52.301 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:53.641 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:54.983 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:56.329 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:57.666 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:04:59.014 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:00.357 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:01.701 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:03.040 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:04.382 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:05.725 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:07.068 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:08.408 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:09.444 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 19,8  replyHeader:: 19,51539607572,-101  request:: '/a,F  response:: v{} 
+23:05:09.445 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+An error occurred: KeeperErrorCode = NoNode for /a
+Running command: python src/display_tree.py src/treeData.txt
+23:05:10.779 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:05:12.126 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:13.471 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:14.808 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:05:16.152 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:17.498 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:05:18.841 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 2ms.
+Script exited with code: 0
+23:05:20.179 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:05:21.526 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:22.872 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:24.212 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:25.551 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:26.916 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 20ms.
+23:05:28.238 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:29.585 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:30.919 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:32.252 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:33.594 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:34.942 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:36.279 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:37.622 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:38.968 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:40.303 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:41.640 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:42.980 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:44.330 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:45.671 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:47.010 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:05:48.353 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:49.695 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 5ms.
+23:05:51.031 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:52.370 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:05:53.715 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:55.061 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:56.417 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:57.757 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:05:59.094 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:00.437 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:01.782 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 4ms.
+23:06:03.115 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:04.455 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:05.799 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:07.142 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:08.483 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:09.824 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:10.344 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got notification session id: 0x1003583e49e0002
+23:06:10.344 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeCreated path:/a for session id 0x1003583e49e0002
+Created node 
+23:06:10.346 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:/a serverPath:/a finished:false header:: 20,3  replyHeader:: 20,51539607573,0  request:: '/a,T  response:: s{51539607573,51539607573,1718053570329,1718053570329,0,0,0,0,0,0,51539607573} 
+23:06:10.346 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 21,3  replyHeader:: 21,51539607573,0  request:: '/a,F  response:: s{51539607573,51539607573,1718053570329,1718053570329,0,0,0,0,0,0,51539607573} 
+23:06:10.348 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 22,8  replyHeader:: 22,51539607573,0  request:: '/a,T  response:: v{} 
+23:06:11.694 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:13.038 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:14.383 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:15.731 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:16.049 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got notification session id: 0x1003583e49e0002
+23:06:16.049 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/a for session id 0x1003583e49e0002
+Node children changed 
+23:06:16.050 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 23,8  replyHeader:: 23,51539607574,0  request:: '/a,F  response:: v{'child1} 
+23:06:16.052 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 24,8  replyHeader:: 24,51539607574,0  request:: '/a/child1,F  response:: v{} 
+Path /a has 1 descendant
+Running command: python src/display_children.py 1
+23:06:17.387 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+Script exited with code: 0
+23:06:18.090 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:/a serverPath:/a finished:false header:: 25,3  replyHeader:: 25,51539607574,0  request:: '/a,T  response:: s{51539607573,51539607573,1718053570329,1718053570329,0,1,0,0,0,1,51539607574} 
+23:06:18.091 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 26,3  replyHeader:: 26,51539607574,0  request:: '/a,F  response:: s{51539607573,51539607573,1718053570329,1718053570329,0,1,0,0,0,1,51539607574} 
+23:06:18.093 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 27,8  replyHeader:: 27,51539607574,0  request:: '/a,T  response:: v{'child1} 
+23:06:18.095 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 28,8  replyHeader:: 28,51539607574,0  request:: '/a/child1,T  response:: v{} 
+23:06:19.442 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:20.781 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:22.129 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:23.473 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:23.585 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got notification session id: 0x1003583e49e0002
+23:06:23.585 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/a for session id 0x1003583e49e0002
+Node children changed 
+23:06:23.586 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 29,8  replyHeader:: 29,51539607575,0  request:: '/a,F  response:: v{'child2,'child1} 
+23:06:23.588 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 30,8  replyHeader:: 30,51539607575,0  request:: '/a/child2,F  response:: v{} 
+23:06:23.589 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 31,8  replyHeader:: 31,51539607575,0  request:: '/a/child1,F  response:: v{} 
+Path /a has 2 descendants
+Running command: python src/display_children.py 2
+23:06:24.923 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+Script exited with code: 0
+23:06:26.108 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:/a serverPath:/a finished:false header:: 32,3  replyHeader:: 32,51539607575,0  request:: '/a,T  response:: s{51539607573,51539607573,1718053570329,1718053570329,0,2,0,0,0,2,51539607575} 
+23:06:26.109 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 33,3  replyHeader:: 33,51539607575,0  request:: '/a,F  response:: s{51539607573,51539607573,1718053570329,1718053570329,0,2,0,0,0,2,51539607575} 
+23:06:26.109 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 2ms.
+23:06:26.111 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 34,8  replyHeader:: 34,51539607575,0  request:: '/a,T  response:: v{'child2,'child1} 
+23:06:26.112 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 35,8  replyHeader:: 35,51539607575,0  request:: '/a/child2,T  response:: v{} 
+23:06:26.115 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 36,8  replyHeader:: 36,51539607575,0  request:: '/a/child1,T  response:: v{} 
+23:06:27.452 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:28.792 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:30.136 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 2ms.
+23:06:31.473 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:32.814 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:34.156 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:35.499 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:36.846 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:38.191 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:39.535 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:40.882 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:42.221 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:43.562 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:44.902 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:46.244 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:47.585 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:48.928 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:50.269 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:51.616 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:52.960 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:06:54.302 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:55.642 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:56.986 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 2ms.
+23:06:58.330 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:06:59.673 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:01.013 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:02.349 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:03.692 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:05.036 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:06.384 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:07.725 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:09.067 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:10.406 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:11.745 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:13.093 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:14.438 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:15.776 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:17.115 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:18.457 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:19.797 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:21.137 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:22.477 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:23.814 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:25.163 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:26.507 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:27.846 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:29.189 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:30.527 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:31.868 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:33.214 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:34.562 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:35.900 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:37.245 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:38.594 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:39.936 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:41.270 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:42.608 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:43.952 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:45.299 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:46.644 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:47.986 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:49.326 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:50.669 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:52.012 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:53.358 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:54.698 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:56.040 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:07:57.386 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:07:58.728 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:08:00.070 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:08:01.414 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:08:02.753 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:08:03.923 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 37,8  replyHeader:: 37,51539607575,0  request:: '/a,F  response:: v{'child2,'child1} 
+23:08:03.923 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 2ms.
+23:08:03.925 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 38,8  replyHeader:: 38,51539607575,0  request:: '/a/child2,F  response:: v{} 
+23:08:03.926 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Reading reply session id: 0x1003583e49e0002, packet:: clientPath:null serverPath:null finished:false header:: 39,8  replyHeader:: 39,51539607575,0  request:: '/a/child1,F  response:: v{} 
+Running command: python src/display_tree.py src/treeData.txt
+23:08:05.263 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:08:06.606 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+23:08:07.944 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 1ms.
+Script exited with code: 0
+23:08:09.285 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:08:10.630 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:08:11.969 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.
+23:08:13.309 [main-SendThread(localhost:2181)] DEBUG org.apache.zookeeper.ClientCnxn - Got ping response for session id: 0x1003583e49e0002 after 0ms.

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="zookeeper-3.8.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../Program Files/apache-zookeeper-3.8.4-bin/lib/zookeeper-3.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../Program Files/apache-zookeeper-3.8.4-bin/lib/zookeeper-prometheus-metrics-3.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../Program Files/apache-zookeeper-3.8.4-bin/lib/zookeeper-jute-3.8.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
