@@ -21,3 +21,7 @@ The Lab4-5 directory contains the solution to the middleware homework assignment
 - [**Lab6: RabbitMQ**](./lab6-RABBITMQ/rabbitmq)
 
 The Lab6 directory contains the solution to Message-Oriented Middleware (MOM) homework assignment using RabbitMQ. The project consisted of implementing an orthopedic department system. The application was written in Java.
+
+- [**Lab7: Zookeeper**](./lab7-ZOOKEEPER/)
+
+The Lab7 directory contains the solution to the Zookeeper homework assignment. In this assignment, students were tasked with creating a Java application using the distributed, replicated ZooKeeper environment and its watch mechanism.
